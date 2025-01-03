@@ -97,8 +97,7 @@ $member2 = new Member("Jane Smith");
 
 // TODO: Apply Borrow book method to each member
 $member1->borrowBook($book1);
-$member2->borrowBook($book2);
- 
+$member1->borrowBook($book2); 
 
 // TODO: Print Available Copies with their names:
 echo "Available Copies of '" . $book1->getTitle() . "': " . $book1->getAvailableCopies();
